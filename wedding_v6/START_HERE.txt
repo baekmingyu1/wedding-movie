@@ -1,0 +1,48 @@
+웨딩 식전영상 v6 — Codex 클라우드 인계 프로젝트
+
+목표: 모바일에서도 Codex에게 수정 요청을 하며 같은 영상을 계속 제작한다.
+현재 완성본: 완성영상/WEDDING_DAY_레퍼런스모션_v6_4분07초.mp4
+정확히 247초, 1920x1080, 30fps, 7410프레임. 사진 42장, 영상 4개, 37장면.
+백민규 · 박지해 / 2026-12-12 16:30
+BGM: 우리가 노래하는 이유. media/bgm.mp3. 원음은 약247.38초, 출력247초와 마지막3초 페이드아웃.
+
+유지할 방향:
+- https://www.youtube.com/watch?v=af79V8-C4r0 의 전환/장식/등장 모션을 최대한 충실하게 재현.
+- 초기에 참고한 링크는 https://www.youtube.com/watch?v=hX21uuqSvsY 이지만 현재 최우선은 위 레퍼런스.
+- 청첩장 https://welcome-our-wedding.cst.onul.me/ 에서 이름/날짜/에피소드만 참조.
+- 색상/아이콘은 청첩장에 맞추지 않는다.
+- 하트 금지가 아니다. 단순 하트 아이콘은 싫어한다. 비대칭 손그림, 겹선, 리본, 거친 종이 하트 창은 허용.
+- 사진의 얼굴/머리 잘림에 특히 주의. 엔딩 하트 창31/32번은 사진11,12를 각각 한 장씩 사용하고 사이 전환은 fade.
+- 현재 v6은 직접 재현한 편집이며 원본 레퍼런스의 편집 파일/그래픽을 받은 완전 동일 복제본은 아니다.
+
+이야기: 처음 마주 앉은 한 식탁에서 우리의 이야기가 시작됐습니다.
+함께 움직이는 날도, 나란히 쉬는 날도 좋았습니다. 이제 앞으로의 날들을 함께 이어가려 합니다.
+
+실행 (Python 3.10 이상, Windows/Linux):
+python -m pip install -r requirements.txt
+python cloud_check.py
+python make_reference_v6.py --preview
+
+기존37개 렌더링 장면으로 동일 편집본 합치기(폰트 재렌더링 불필요):
+python finish_reference_v6.py --merge-only
+python verify_reference_v6.py
+
+편집: make_reference_v6.py의 SCENES/add 호출과 prepare/scene_frame/transition을 수정.
+video_work_v6/timeline.json은 렌더링 결과 메타데이터다. 이것만 수정해도 코드의 장면 구성이 바뀌지는 않는다.
+make_editorial_v4.py는 v6이 불러 쓰는 공용 사진/인코딩 엔진이므로 삭제하지 않는다.
+media.json은 프로젝트 기준 상대경로이고 런타임에 프로젝트 위치 기준으로 해석한다.
+폰트는 fonts/에, 누끼 PNG와 모델은 video_work_v2 및 video_work_v6/assets에 포함했다.
+
+선택 장면 렌더링 예(0부터 시작하는 장면 번호):
+python make_reference_v6.py --only=5,6 --force
+python finish_reference_v6.py --merge-only
+python verify_reference_v6.py
+장면5를 수정하면 장면6의 시작 전환도 이전 장면을 사용하므로 함께 렌더링한다.
+장면 길이/순서/전체 디자인을 바꾸면 전체 재렌더링:
+python make_reference_v6.py --force
+
+기본 실행은 이미 있는 segments를 재사용하므로 변경을 반영할 때 --force를 잊지 않는다.
+create_cutouts는 기존 PNG가 있으면 모델을 실행하지 않는다.
+입력 동영상의 소리는 사용하지 않고 지정 BGM만 사용한다.
+이 프로젝트와 개인 원본은 비공개로 유지하며 공개 사이트나 공개 저장소에 올리지 않는다.
+기존 v1~v5 결과물은 로컬에 보존되어 있고 이 묶음은 현재 v6과 필요한 의존 파일만 담았다.

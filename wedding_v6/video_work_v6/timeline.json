@@ -1,0 +1,659 @@
+[
+  {
+    "kind": "opening_a",
+    "requested": 7,
+    "ids": [
+      44,
+      11
+    ],
+    "caption": "",
+    "index": 0,
+    "frames": 191,
+    "start": 0.0,
+    "duration": 6.366666666666666,
+    "end": 6.366666666666666,
+    "motion": "none",
+    "hearts": true
+  },
+  {
+    "kind": "opening_b",
+    "requested": 7,
+    "ids": [
+      37
+    ],
+    "caption": "",
+    "index": 1,
+    "frames": 191,
+    "start": 6.366666666666666,
+    "duration": 6.366666666666666,
+    "end": 12.733333333333333,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "duo",
+    "requested": 8,
+    "ids": [
+      32,
+      33
+    ],
+    "caption": "",
+    "index": 2,
+    "frames": 218,
+    "start": 12.733333333333333,
+    "duration": 7.266666666666667,
+    "end": 20.0,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "profile_groom",
+    "requested": 8,
+    "ids": [
+      16,
+      7
+    ],
+    "caption": "",
+    "index": 3,
+    "frames": 218,
+    "start": 20.0,
+    "duration": 7.266666666666667,
+    "end": 27.266666666666666,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "profile_bride",
+    "requested": 8,
+    "ids": [
+      10,
+      18
+    ],
+    "caption": "",
+    "index": 4,
+    "frames": 218,
+    "start": 27.266666666666666,
+    "duration": 7.266666666666667,
+    "end": 34.53333333333333,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "chat",
+    "requested": 8,
+    "ids": [
+      9,
+      3
+    ],
+    "caption": "처음 마주 앉은 한 식탁에서 우리의 이야기가 시작됐습니다.",
+    "index": 5,
+    "frames": 218,
+    "start": 34.53333333333333,
+    "duration": 7.266666666666667,
+    "end": 41.8,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "bubble",
+    "requested": 7,
+    "ids": [
+      5,
+      6
+    ],
+    "caption": "평범한 하루에도 함께한 기억이 쌓였습니다.",
+    "index": 6,
+    "frames": 191,
+    "start": 41.8,
+    "duration": 6.366666666666666,
+    "end": 48.166666666666664,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "activity",
+    "requested": 8,
+    "ids": [
+      1,
+      2,
+      20
+    ],
+    "caption": "함께 움직이는 날도 좋았습니다.",
+    "chapter": "함께 즐기는 것은?",
+    "en": "Days in motion",
+    "who": "groom",
+    "index": 7,
+    "frames": 218,
+    "start": 48.166666666666664,
+    "duration": 7.266666666666667,
+    "end": 55.43333333333333,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      15,
+      16
+    ],
+    "caption": "각자의 걸음으로 올라, 같은 풍경을 바라봅니다.",
+    "chapter": "함께 즐기는 것은?",
+    "en": "Days in motion",
+    "who": "bride",
+    "index": 8,
+    "frames": 191,
+    "start": 55.43333333333333,
+    "duration": 6.366666666666666,
+    "end": 61.8,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "filmstrip",
+    "requested": 7,
+    "ids": [
+      17,
+      38,
+      39,
+      40
+    ],
+    "caption": "우리의 페이스로",
+    "chapter": "함께한 소중한 순간",
+    "index": 9,
+    "frames": 191,
+    "start": 61.8,
+    "duration": 6.366666666666666,
+    "end": 68.16666666666667,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "video",
+    "requested": 3.6,
+    "ids": [
+      21
+    ],
+    "caption": "함께 움직이는 날들",
+    "src": 0,
+    "who": "groom",
+    "index": 10,
+    "frames": 108,
+    "start": 68.16666666666667,
+    "duration": 3.6,
+    "end": 71.76666666666667,
+    "vx": 735,
+    "vy": 160,
+    "vw": 450,
+    "vh": 790,
+    "video_filter": "scale=450:790:force_original_aspect_ratio=increase,crop=450:790,setsar=1",
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "video",
+    "requested": 8,
+    "ids": [
+      22
+    ],
+    "caption": "함께하면 즐거운 순간",
+    "src": 7,
+    "who": "bride",
+    "index": 11,
+    "frames": 240,
+    "start": 71.76666666666667,
+    "duration": 8.0,
+    "end": 79.76666666666667,
+    "vx": 370,
+    "vy": 160,
+    "vw": 1180,
+    "vh": 664,
+    "video_filter": "scale=1180:664:force_original_aspect_ratio=increase,crop=1180:664,setsar=1",
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "portrait",
+    "requested": 7,
+    "ids": [
+      13,
+      14
+    ],
+    "caption": "둘이서 채워 온 장면들",
+    "chapter": "우리다운 모습은?",
+    "en": "Just the two of us",
+    "who": "groom",
+    "index": 12,
+    "frames": 191,
+    "start": 79.76666666666667,
+    "duration": 6.366666666666666,
+    "end": 86.13333333333334,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "filmphoto",
+    "requested": 7,
+    "ids": [
+      18,
+      10
+    ],
+    "caption": "기념하고 싶은 날에도 함께",
+    "chapter": "우리다운 모습은?",
+    "en": "Just the two of us",
+    "who": "bride",
+    "index": 13,
+    "frames": 191,
+    "start": 86.13333333333334,
+    "duration": 6.366666666666666,
+    "end": 92.5,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      23,
+      24
+    ],
+    "caption": "서로를 담아 주고",
+    "chapter": "함께 떠난 여행",
+    "en": "Places we have been",
+    "who": "groom",
+    "index": 14,
+    "frames": 191,
+    "start": 92.5,
+    "duration": 6.366666666666666,
+    "end": 98.86666666666666,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "activity",
+    "requested": 7,
+    "ids": [
+      32,
+      33
+    ],
+    "caption": "낯선 곳도 함께 걷고",
+    "chapter": "함께 떠난 여행",
+    "en": "Places we have been",
+    "who": "bride",
+    "index": 15,
+    "frames": 191,
+    "start": 98.86666666666666,
+    "duration": 6.366666666666666,
+    "end": 105.23333333333333,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      34,
+      35,
+      36
+    ],
+    "caption": "마음껏 들뜨는 날도",
+    "chapter": "함께 떠난 여행",
+    "en": "Places we have been",
+    "who": "groom",
+    "index": 16,
+    "frames": 191,
+    "start": 105.23333333333333,
+    "duration": 6.366666666666666,
+    "end": 111.6,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      7,
+      8,
+      41
+    ],
+    "caption": "푸른 계절을 지나",
+    "chapter": "함께 떠난 여행",
+    "en": "Places we have been",
+    "who": "bride",
+    "index": 17,
+    "frames": 191,
+    "start": 111.6,
+    "duration": 6.366666666666666,
+    "end": 117.96666666666667,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "forever",
+    "requested": 8,
+    "ids": [
+      19,
+      11
+    ],
+    "caption": "나란히 쉬는 날도 좋았습니다.",
+    "index": 18,
+    "frames": 218,
+    "start": 117.96666666666667,
+    "duration": 7.266666666666667,
+    "end": 125.23333333333333,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "pinkphoto",
+    "requested": 7,
+    "ids": [
+      27,
+      28
+    ],
+    "caption": "천천히 머물고, 같은 그늘 아래",
+    "who": "groom",
+    "index": 19,
+    "frames": 191,
+    "start": 125.23333333333333,
+    "duration": 6.366666666666666,
+    "end": 131.6,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pinkphoto",
+    "requested": 7,
+    "ids": [
+      29,
+      30
+    ],
+    "caption": "걷다가, 쉬어 가다가",
+    "who": "bride",
+    "index": 20,
+    "frames": 191,
+    "start": 131.6,
+    "duration": 6.366666666666666,
+    "end": 137.96666666666667,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pinkphoto",
+    "requested": 7,
+    "ids": [
+      31,
+      26
+    ],
+    "caption": "하루의 끝에도 함께",
+    "who": "groom",
+    "index": 21,
+    "frames": 191,
+    "start": 137.96666666666667,
+    "duration": 6.366666666666666,
+    "end": 144.33333333333334,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "memories",
+    "requested": 7,
+    "ids": [
+      37,
+      44
+    ],
+    "caption": "우리다운 순간들",
+    "index": 22,
+    "frames": 191,
+    "start": 144.33333333333334,
+    "duration": 6.366666666666666,
+    "end": 150.7,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "filmstrip",
+    "requested": 8,
+    "ids": [
+      32,
+      33,
+      36
+    ],
+    "caption": "함께 떠난 여행",
+    "chapter": "함께한 소중한 순간",
+    "index": 23,
+    "frames": 218,
+    "start": 150.7,
+    "duration": 7.266666666666667,
+    "end": 157.96666666666667,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      23,
+      24,
+      43
+    ],
+    "caption": "둘이서 남긴 작은 장면들",
+    "chapter": "함께한 소중한 순간",
+    "en": "Our special moments",
+    "who": "bride",
+    "index": 24,
+    "frames": 191,
+    "start": 157.96666666666667,
+    "duration": 6.366666666666666,
+    "end": 164.33333333333334,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "seasons",
+    "requested": 9,
+    "ids": [
+      12,
+      38,
+      4,
+      20
+    ],
+    "caption": "함께 쌓아 온 봄, 여름, 가을, 겨울",
+    "index": 25,
+    "frames": 246,
+    "start": 164.33333333333334,
+    "duration": 8.2,
+    "end": 172.53333333333333,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "keepsakes",
+    "requested": 8,
+    "ids": [
+      3,
+      6,
+      45
+    ],
+    "caption": "차곡차곡 쌓인 우리의 시간",
+    "index": 26,
+    "frames": 218,
+    "start": 172.53333333333333,
+    "duration": 7.266666666666667,
+    "end": 179.8,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "video",
+    "requested": 8.5,
+    "ids": [
+      25
+    ],
+    "caption": "함께한 하루의 한 장면",
+    "src": 0.3,
+    "who": "bride",
+    "index": 27,
+    "frames": 255,
+    "start": 179.8,
+    "duration": 8.5,
+    "end": 188.3,
+    "vx": 735,
+    "vy": 160,
+    "vw": 450,
+    "vh": 790,
+    "video_filter": "scale=450:790:force_original_aspect_ratio=increase,crop=450:790,setsar=1",
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "pair",
+    "requested": 7,
+    "ids": [
+      42,
+      43
+    ],
+    "caption": "새로운 장면 속에서도 함께",
+    "chapter": "함께한 소중한 순간",
+    "en": "Our special moments",
+    "who": "groom",
+    "index": 28,
+    "frames": 191,
+    "start": 188.3,
+    "duration": 6.366666666666666,
+    "end": 194.66666666666666,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "video",
+    "requested": 8.5,
+    "ids": [
+      46
+    ],
+    "caption": "우리다운 표정으로, 앞으로도",
+    "src": 1,
+    "who": "bride",
+    "index": 29,
+    "frames": 255,
+    "start": 194.66666666666666,
+    "duration": 8.5,
+    "end": 203.16666666666666,
+    "vx": 814,
+    "vy": 135,
+    "vw": 292,
+    "vh": 875,
+    "video_filter": "crop=iw/3:ih:iw/3:0,scale=292:875:force_original_aspect_ratio=increase,crop=292:875,setsar=1",
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "booth",
+    "requested": 4,
+    "ids": [
+      45
+    ],
+    "caption": "앞으로도, 우리답게.",
+    "index": 30,
+    "frames": 109,
+    "start": 203.16666666666666,
+    "duration": 3.6333333333333333,
+    "end": 206.8,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "window_end",
+    "requested": 8,
+    "ids": [
+      11
+    ],
+    "caption": "",
+    "index": 31,
+    "frames": 218,
+    "start": 206.8,
+    "duration": 7.266666666666667,
+    "end": 214.06666666666666,
+    "motion": "paper",
+    "hearts": true
+  },
+  {
+    "kind": "window_end",
+    "requested": 7,
+    "ids": [
+      12
+    ],
+    "caption": "",
+    "index": 32,
+    "frames": 191,
+    "start": 214.06666666666666,
+    "duration": 6.366666666666666,
+    "end": 220.43333333333334,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "film_end",
+    "requested": 8,
+    "ids": [
+      11,
+      37,
+      44
+    ],
+    "caption": "",
+    "index": 33,
+    "frames": 218,
+    "start": 220.43333333333334,
+    "duration": 7.266666666666667,
+    "end": 227.7,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "film_end",
+    "requested": 7,
+    "ids": [
+      4,
+      12,
+      41
+    ],
+    "caption": "",
+    "index": 34,
+    "frames": 191,
+    "start": 227.7,
+    "duration": 6.366666666666666,
+    "end": 234.06666666666666,
+    "motion": "fade",
+    "hearts": true
+  },
+  {
+    "kind": "thanks",
+    "requested": 7,
+    "ids": [
+      11
+    ],
+    "caption": "소중한 분들과 함께\n새로운 날을 시작합니다.",
+    "index": 35,
+    "frames": 191,
+    "start": 234.06666666666666,
+    "duration": 6.366666666666666,
+    "end": 240.43333333333334,
+    "motion": "diagonal",
+    "hearts": true
+  },
+  {
+    "kind": "thanks",
+    "requested": 7,
+    "ids": [
+      44
+    ],
+    "caption": "행복한 시작을\n함께해 주셔서 감사합니다.",
+    "index": 36,
+    "frames": 197,
+    "start": 240.43333333333334,
+    "duration": 6.566666666666666,
+    "end": 247.0,
+    "motion": "diagonal",
+    "hearts": true
+  }
+]
